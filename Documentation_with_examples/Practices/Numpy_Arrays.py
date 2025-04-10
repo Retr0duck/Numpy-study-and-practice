@@ -54,3 +54,16 @@ print(f"The copy result: {d.base} \nThe view result: {e.base}")
 
 """Shaping an array"""
 print("............................................") #Space
+# The reshape method allow to change the shape of an array
+sharr = np.array([[1,2,3,4,5],[6,7,8,9,10]])
+sharr = sharr.reshape(5,2)
+print(f"Array reshaped: {sharr}")
+# The shape method allow to check the shape of an array
+print(f"Array shape: {sharr.shape}")
+# The size method allow to check the size of an array
+print(f"Array size: {sharr.size}")
+# The itemsize method allow to check the size of each element in the array
+print(f"Array itemsize: {sharr.itemsize}")
+
+print("............................................") #Space
+
